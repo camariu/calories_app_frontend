@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function DailyCalories() {
+export default function ModalDailyCalories() {
   return (
     <section className="container mx-auto bg-blue-200 z-10 h-hmodal w-wmodal  ">
       <div className="flex flex-col  justify-center  items-center ">

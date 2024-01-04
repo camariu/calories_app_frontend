@@ -1,14 +1,24 @@
 import React from 'react';
 
+
+ 
+
+
+
+
+
+
+
 import banana from '../../assets/image/Layer-9.png';
 import leaves from '../../assets/image/Layer-4 1.png';
-
 import strawberry from '../../assets/image/Strawberry-Big-PNG.png';
 import vector from '../../assets/image/Vector 3.png';
 import bananaTablet from '../../assets/image/banana-tablet.png';
 import leavesTablet from '../../assets/image/lef-tablet.png';
 import strawberryTablet from '../../assets/image/Strawberry-tablet.png';
 import vectorTablet from '../../assets/image/vector-tableta.png';
+
+
 
 export default function Hero() {
   return (

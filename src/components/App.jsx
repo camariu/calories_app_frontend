@@ -1,17 +1,15 @@
  
+import Home from './Home/Home';
  
  
-import Hero from "./Hero/Hero";
-import NavBar from "./NavBar/NavBar";
- 
- 
+import { Routes, Route } from 'react-router-dom';
 
 export const App = () => {
   return (
-    <div className=" " >
-       
-        <NavBar></NavBar>
-        <Hero></Hero>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home/>}></Route>
+      </Routes>
     </div>
   );
 };
