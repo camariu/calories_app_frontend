@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/calories_app_frontend/static/css/main.85c6e9c3.css",
-    "main.js": "/calories_app_frontend/static/js/main.6ec9649d.js",
+    "main.js": "/calories_app_frontend/static/js/main.9634f9a2.js",
     "static/media/Strawberry-tablet.png": "/calories_app_frontend/static/media/Strawberry-tablet.48e00a216ed4fab7b70e.png",
     "static/media/Strawberry-Big-PNG.png": "/calories_app_frontend/static/media/Strawberry-Big-PNG.bc3a36499280cef2c930.png",
     "static/media/Layer-9.png": "/calories_app_frontend/static/media/Layer-9.6ecc29ed702aa64a9861.png",
@@ -10,10 +10,10 @@
     "static/media/lef-tablet.png": "/calories_app_frontend/static/media/lef-tablet.ab2ea6027bcd393c10fa.png",
     "index.html": "/calories_app_frontend/index.html",
     "main.85c6e9c3.css.map": "/calories_app_frontend/static/css/main.85c6e9c3.css.map",
-    "main.6ec9649d.js.map": "/calories_app_frontend/static/js/main.6ec9649d.js.map"
+    "main.9634f9a2.js.map": "/calories_app_frontend/static/js/main.9634f9a2.js.map"
   },
   "entrypoints": [
     "static/css/main.85c6e9c3.css",
-    "static/js/main.6ec9649d.js"
+    "static/js/main.9634f9a2.js"
   ]
 }
