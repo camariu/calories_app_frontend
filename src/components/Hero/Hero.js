@@ -2,13 +2,6 @@ import React from 'react';
 
 
  
-
-
-
-
-
-
-
 import banana from '../../assets/image/Layer-9.png';
 import leaves from '../../assets/image/Layer-4 1.png';
 import strawberry from '../../assets/image/Strawberry-Big-PNG.png';
@@ -23,53 +16,7 @@ import vectorTablet from '../../assets/image/vector-tableta.png';
 export default function Hero() {
   return (
     <section className="container mx-auto px-5 static  ">
-      {/* Image desktop */}
-      <img
-        alt=''
-        src={banana}
-        className=" hidden lg:block absolute top-5 right-0 z-10"
-      ></img>
-      <img
-         alt=''
-        src={vector}
-        className=" hidden lg:block absolute top-11 right-0 bg-cover -z-10 "
-        width={602}
-        height={816}
-      ></img>
-      <img
-         alt=''
-        src={strawberry}
-        className=" hidden lg:block absolute top-504 right-0 z-10"
-      ></img>
-      <img
-         alt=''
-        src={leaves}
-        className=" hidden lg:block absolute  top-0 right-195 z-10"
-      ></img>
-        {/* Image tablet */}
-      <img
-        alt=''
-        src={bananaTablet}
-        className=" hidden sm:block lg:hidden absolute    top-[820px] right-0 z-10"
-      ></img>
-      <img
-         alt=''
-        src={vectorTablet}
-        className=" hidden sm:block lg:hidden absolute top-593 right-0 bg-cover -z-10 "
-        width={602}
-        height={816}
-      ></img>
-      <img
-         alt=''
-        src={strawberryTablet}
-        className=" hidden  sm:block  lg:hidden absolute top-[593px] right-[56px] z-10"
-      ></img>
-      <img
-         alt=''
-        src={leavesTablet}
-        className=" hidden sm:block  sm:rotate-90 absolute  lg:hidden  top-493 right-116 z-10 "
-      ></img>
-
+      
       <h1 className="font-OpenSans  mt-8 text-black font-bold text-2xl sm:mt-28 sm:text-4xl md:w-title md:leading-snug z-20">
         Calculate your daily calorie intake right now
       </h1>
@@ -161,6 +108,53 @@ export default function Hero() {
           </button>
         </div>
       </div>
+      {/* Image desktop */}
+      <img
+        alt=''
+        src={banana}
+        className=" hidden lg:block absolute top-5 right-0 z-10"
+      ></img>
+      <img
+         alt=''
+        src={vector}
+        className=" hidden lg:block absolute top-11 right-0 bg-cover -z-10 "
+        width={602}
+        height={816}
+      ></img>
+      <img
+         alt=''
+        src={strawberry}
+        className=" hidden lg:block absolute top-504 right-0 z-10"
+      ></img>
+      <img
+         alt=''
+        src={leaves}
+        className=" hidden lg:block absolute  top-0 right-195 z-10"
+      ></img>
+        {/* Image tablet */}
+      <img
+        alt=''
+        src={bananaTablet}
+        className=" hidden sm:block lg:hidden absolute    top-[820px] right-0 z-10"
+      ></img>
+      <img
+         alt=''
+        src={vectorTablet}
+        className=" hidden sm:block lg:hidden absolute top-593 right-0 bg-cover -z-10 "
+        width={602}
+        height={816}
+      ></img>
+      <img
+         alt=''
+        src={strawberryTablet}
+        className=" hidden  sm:block  lg:hidden absolute top-[593px] right-[56px] z-10"
+      ></img>
+      <img
+         alt=''
+        src={leavesTablet}
+        className=" hidden sm:block  sm:rotate-90 absolute  lg:hidden  top-493 right-116 z-10 "
+      ></img>
+
     </section>
   );
 }
