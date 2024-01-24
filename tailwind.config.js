@@ -31,27 +31,15 @@ module.exports = {
 
       boxShadow: {
         'straw-shadow': '10px 20px 50px 0px rgba(0, 0, 0, 0.30)',
-      }
+      },
+      fontFamily:{
+        'OpenSans':["Open Sans"],
+      },
+     
       
     },
 
-    fontFamily:{
-      'OpenSans':[ "Open Sans"],
-    },
-    width: {
-      'title': '608px',
-      'wmodal':"672px"
-
-    },
-
-    height:{
-      'hmodal': '572px',
-    
-    },
-
-    
   
-
   },
   plugins: [],
 }
