@@ -8,7 +8,7 @@ import bananaTablet from '../../assets/image/banana-tablet.png';
 import leavesTablet from '../../assets/image/lef-tablet.png';
 import strawberryTablet from '../../assets/image/Strawberry-tablet.png';
 import vectorTablet from '../../assets/image/vector-tableta.png';
-import { Link, useActionData, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { login } from '../../redux/operations';
 import { selectIsAuthentificated } from "../../redux/selectors.js"
